@@ -1,7 +1,10 @@
-'use strict';
-const express = require('express');
+"use strict";
+const express = require("express");
 
-const { Food } = require('../models/index');
+
+
+
+const { Food } = require('../models/index.models');
 
 const foodRouter = express.Router();
 
